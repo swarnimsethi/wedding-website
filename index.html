@@ -1,0 +1,80 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swarnim & Sonia's Wedding</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playfair+Display:wght@500&display=swap');
+        
+        body {
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            font-size: 22px;
+            background: linear-gradient(to right, #FBE8BA, #F7CF71, #F8AB5B, #E48071);
+            color: #DE5850;
+        }
+        nav {
+            background: rgba(251, 232, 186, 0.9);
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        nav a {
+            text-decoration: none;
+            color: #E48071;
+            font-size: 24px;
+            font-family: 'Dancing Script', cursive;
+            font-weight: 500;
+            transition: color 0.3s ease-in-out;
+            cursor: pointer;
+        }
+        nav a:hover {
+            color: #DE5850;
+        }
+        section {
+            padding: 100px 20px;
+            min-height: 100vh;
+        }
+        #home { background-color: #FBE8BA; }
+        #invitation { background-color: #F8AB5B; }
+        #story { background-color: #F7CF71; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#invitation">Invitation</a>
+        <a href="#story">Our Story</a>
+        <a href="#details">Event Details</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#guest-info">Guest Info</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <section id="home">
+        <h1>Welcome to Swarnim & Sonia's Wedding Celebration</h1>
+        <p>We are thrilled to invite you to our special day. Explore the sections to know more!</p>
+    </section>
+    
+    <section id="invitation">
+        <h1>You're Invited!</h1>
+        <p>Join us in celebrating our wedding day.</p>
+    </section>
+    
+    <section id="story">
+        <h1>Our Love Story</h1>
+        <p>A journey of love that started in 2015 and led us here today.</p>
+    </section>
+</body>
+</html>
